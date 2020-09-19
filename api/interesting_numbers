@@ -1,0 +1,19 @@
+import requests
+
+with open ("dataset_24476_3.txt","r") as f:
+    x = f.read()
+    x = x.splitlines()
+
+for number in x:
+    api_url = "http://numbersapi.com/{}/math?json=true".format(number)
+    
+    res = requests.get(api_url)
+    
+    js = res.json()
+    
+    if js['found'] == True:
+        with open ("answer_digit.txt","a") as w:
+            w.write('Interesting\n')
+    elif js['found'] == False:
+        with open ("answer_digit.txt","a") as w:
+            w.write('Boring\n')
