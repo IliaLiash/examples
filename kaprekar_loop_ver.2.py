@@ -1,4 +1,5 @@
 def numerics(n):
+    
     list1 = []
     
     while n != 0:
@@ -12,6 +13,7 @@ def kaprekar_step(L):
     
     num1 = ''.join(str(element) for element in L)
     num2 = ''.join(str(element) for element in L[::-1])
+    
     
     return int(num2) - int(num1)
 
