@@ -10,6 +10,7 @@ def numerics(n):
 def kaprekar_step(L):
     L = sorted(L)
     
+    
     num1 = ''.join(str(element) for element in L)
     num2 = ''.join(str(element) for element in L[::-1])
     
