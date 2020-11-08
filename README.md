@@ -1,1 +1,1 @@
-# some_examples
+# python_practice
