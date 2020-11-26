@@ -43,5 +43,5 @@ for element in hotels:
                 continue
 
 if count == 0:
-        print('âŕđčŕíňîâ íĺň')
+        print('No hotels')
         
