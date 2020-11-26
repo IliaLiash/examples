@@ -43,5 +43,5 @@ for element in hotels:
                 continue
 
 if count == 0:
-        print('вариантов нет')
+        print('ГўЕ•Д‘ДЌЕ•Г­Е€Г®Гў Г­ДєЕ€')
         
