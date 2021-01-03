@@ -6,7 +6,7 @@ import datetime
 from telebot import types
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot('1348518668:AAHeYTn8EMp5AxPbgNwXbmvNe7NyljOwAKo')
+bot = telebot.TeleBot(###)
 
 # Метод, который получает сообщения и обрабатывает их
 @bot.message_handler(content_types=['text'])
