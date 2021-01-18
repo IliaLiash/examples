@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.messagebox
 
-class garage:
+class Garage:
     def __init__(self):
         self.main_window = tk.Tk()
         
