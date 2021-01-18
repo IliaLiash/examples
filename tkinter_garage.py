@@ -88,6 +88,6 @@ class Garage:
         if self.cb_var7.get() == 1:
             self.total += 1300     
         
-        tk.messagebox.showinfo('Total costs =', self.total)    
+        tk.messagebox.showinfo('Total costs', 'Total costs = {}'.format(self.total))
             
-test = MyGui()
+test = Garage()
